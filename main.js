@@ -1,13 +1,13 @@
 let yaay = 'Uwielbiam Java Script';
 let proud = 'Jestem świetnym programistą';
 
-function parameters (yaay, proud) {
-    if (yaay.length > proud.length) {
-        return yaay;
-    } else if (yaay.length == proud.length) {
+function parameters (par1, par2) {
+    if (par1.length > par2.length) {
+        return par1;
+    } else if (par1.length == par2.length) {
         return ("ta sama długość")
     } else {
-        return proud
+        return par2
     }
 }
 
